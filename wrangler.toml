@@ -1,0 +1,14 @@
+name = "mcq-app"
+main = "dist/worker.js"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = "dist/public"
+
+[build]
+command = "npm run build"
+cwd = "./"
+
+[observability]
+enabled = true
